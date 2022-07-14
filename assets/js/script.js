@@ -206,38 +206,65 @@ yesBtn.click(() => {
 cryptoInput.keyup(enterInput);
 
 function deleteItem1() {
-  console.log($(".deleteBtn1").parent().children("td.five"));
+  var red = $(".deleteBtn1").parent().children("td.portfolioAmountUSD").text();
+  withdrawAmount = parseFloat(red.substring(1));
+  portfolioBalance = portfolioBalance - withdrawAmount;
+  accountBalance.text("$" + portfolioBalance.toFixed(2));
   $(".deleteBtn1").parent().remove();
-  count();
 }
 function deleteItem2() {
+  var red = $(".deleteBtn2").parent().children("td.portfolioAmountUSD").text();
+  withdrawAmount = parseFloat(red.substring(1));
+  portfolioBalance = portfolioBalance - withdrawAmount;
+  accountBalance.text("$" + portfolioBalance.toFixed(2));
   $(".deleteBtn2").parent().remove();
-  count();
 }
 function deleteItem3() {
+  var red = $(".deleteBtn3").parent().children("td.portfolioAmountUSD").text();
+  withdrawAmount = parseFloat(red.substring(1));
+  portfolioBalance = portfolioBalance - withdrawAmount;
+  accountBalance.text("$" + portfolioBalance.toFixed(2));
   $(".deleteBtn3").parent().remove();
-  count();
 }
 function deleteItem4() {
+  var red = $(".deleteBtn4").parent().children("td.portfolioAmountUSD").text();
+  withdrawAmount = parseFloat(red.substring(1));
+  portfolioBalance = portfolioBalance - withdrawAmount;
+  accountBalance.text("$" + portfolioBalance.toFixed(2));
   $(".deleteBtn4").parent().remove();
 }
 function deleteItem5() {
+  var red = $(".deleteBtn5").parent().children("td.portfolioAmountUSD").text();
+  withdrawAmount = parseFloat(red.substring(1));
+  portfolioBalance = portfolioBalance - withdrawAmount;
+  accountBalance.text("$" + portfolioBalance.toFixed(2));
   $(".deleteBtn5").parent().remove();
 }
 function deleteItem6() {
+  var red = $(".deleteBtn6").parent().children("td.portfolioAmountUSD").text();
+  withdrawAmount = parseFloat(red.substring(1));
+  portfolioBalance = portfolioBalance - withdrawAmount;
+  accountBalance.text("$" + portfolioBalance.toFixed(2));
   $(".deleteBtn6").parent().remove();
 }
 function deleteItem7() {
+  var red = $(".deleteBtn7").parent().children("td.portfolioAmountUSD").text();
+  withdrawAmount = parseFloat(red.substring(1));
+  portfolioBalance = portfolioBalance - withdrawAmount;
+  accountBalance.text("$" + portfolioBalance.toFixed(2));
   $(".deleteBtn7").parent().remove();
 }
 function deleteItem8() {
+  var red = $(".deleteBtn8").parent().children("td.portfolioAmountUSD").text();
+  withdrawAmount = parseFloat(red.substring(1));
+  portfolioBalance = portfolioBalance - withdrawAmount;
+  accountBalance.text("$" + portfolioBalance.toFixed(2));
   $(".deleteBtn8").parent().remove();
 }
 function deleteItem9() {
+  var red = $(".deleteBtn9").parent().children("td.portfolioAmountUSD").text();
+  withdrawAmount = parseFloat(red.substring(1));
+  portfolioBalance = portfolioBalance - withdrawAmount;
+  accountBalance.text("$" + portfolioBalance.toFixed(2));
   $(".deleteBtn9").parent().remove();
 }
-function deleteItem10() {
-  $(".deleteBtn10").parent().remove();
-}
-
-function count() {}
